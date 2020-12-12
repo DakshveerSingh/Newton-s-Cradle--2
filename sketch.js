@@ -20,11 +20,11 @@ function setup() {
 	bob4 = new Pendulumn(windowWidth/2+30,windowHeight - 100,rgb(0));
 	bob5 = new Pendulumn(windowWidth/2+30*2,windowHeight - 100,rgb(0));
 
-	rope1 = new Sling(bob1.body,{x: windowWidth/2-30*2,y: bob1.body.position - 300});
-	rope2 = new Sling(bob2.body,{x: windowWidth/2-30,y: bob1.body.position - 300});
-	rope3 = new Sling(bob3.body,{x: windowWidth/2,y: bob1.body.position - 300});
-	rope4 = new Sling(bob4.body,{x: windowWidth/2-30,y: bob1.body.position - 300});
-	rope5 = new Sling(bob5.body,{x: windowWidth/2-30*2,y: bob1.body.position - 300});
+	rope1 = new Sling(bob1.body,{x: windowWidth/2-60*2,y: bob1.body.position.y - 300});
+	rope2 = new Sling(bob2.body,{x: windowWidth/2-60,y: bob1.body.position.y - 300});
+	rope3 = new Sling(bob3.body,{x: windowWidth/2,y: bob1.body.position.y - 300});
+	rope4 = new Sling(bob4.body,{x: windowWidth/2+60,y: bob1.body.position.y - 300});
+	rope5 = new Sling(bob5.body,{x: windowWidth/2+60*2,y: bob1.body.position.y - 300});
 	
 
 	Engine.run(engine);
